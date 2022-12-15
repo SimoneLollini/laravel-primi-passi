@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <h2>{{ $hello_world  }}</h2>
-    <a href="/about">ABOUT</a>
+    <h2>{{ $hello_world_about  }}</h2>
+    <a href="/">HOME</a>
 </body>
 
 </html>
