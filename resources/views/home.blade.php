@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h2>Hello World!</h2>
+    <h2>{{ $hello_world  }}</h2>
 </body>
 
 </html>
