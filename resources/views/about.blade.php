@@ -9,8 +9,16 @@
 </head>
 
 <body>
-    <h2>{{ $hello_world_about  }}</h2>
+
     <a href="/">HOME</a>
+
+
+    @foreach ($hotels as $hotel)
+    <div>
+        {{$hotel['name']}}
+    </div>
+    @endforeach
+
 </body>
 
 </html>
